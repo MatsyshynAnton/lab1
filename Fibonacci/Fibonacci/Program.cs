@@ -16,7 +16,7 @@ namespace Fibonacci
             seqNumber -= 2;
             return GetFibonacci(seqNumber);
         }
-        static int GetFibonacci(int seqNumber, int first = 1, int second = 1)
+        static int GetFibonacci(int seqNumber, int first = 0, int second = 1)
         {
             if (seqNumber <= 0)
                 return first + second;
